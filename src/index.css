@@ -291,8 +291,7 @@ header{
         line-height: 4.5rem;
     }
     .introduction p, .mission p, .vision p, .valeur p{
-        font-size: calc(32 * var(--res));
-        line-height: 2rem;
+
     }
     .first_galerie{
         display: grid;
