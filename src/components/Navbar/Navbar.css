@@ -1,0 +1,98 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    height: 20vh;
+    z-index: -10;
+}
+nav ul{
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: calc(32 * var(--res));  
+    transition: all 1s ease;     
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}
+a.active{
+    color: var(--bg3-color);
+}
+nav span{
+    display: inline-block;
+    background-color: var(--bg2-color);
+    height: 15px;
+    width: 1.05px;
+}
+nav .lng{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    font-size: calc(32 * var(--res));
+    margin: 0 0.5rem;
+}
+.menu-icon{
+    display: none;
+}
+  
+  
+
+@media screen and (max-width: 785px) {
+    nav ul{
+        padding: 5px 15px;
+        border-radius: 30px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 0 5px;
+        font-size: calc(32 * var(--res));  
+        transition: all 1s ease;     
+    }
+    nav .btn{
+        padding: 6px 12.5px;
+        font-size: calc(32 * var(--res)); 
+    }
+    nav .btns{
+        gap: 0.4rem;
+    }
+    nav span{
+        height: 20px;
+        width: 1.05px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .hide-mobile-menu{
+        right: -200px;
+    }
+    nav{
+        padding: 15px 0;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0px;
+        bottom: 0;
+        background: var(--bg3-color);
+        z-index: -100;
+        width: 200px;
+        height: 100%;
+        padding-top: 70px;
+        transition: 0.5s;
+        border-radius: 0;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+    }
+}
