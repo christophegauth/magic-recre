@@ -21,11 +21,11 @@ const Navbar = () => {
     <nav>
       <img src={logo} alt='' width="80px"/>
       <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/about'>About</NavLink></li>
-        <li><NavLink to='/galerie'>Galerie</NavLink></li>
-        <li><NavLink to='/actions'>Our Actions</NavLink></li>
-        <li><NavLink to='/contact'>Contact</NavLink></li>
+        <NavLink to='/'><li>Home</li></NavLink>
+        <NavLink to='/about'><li>About</li></NavLink>
+        <NavLink to='/galerie'><li>Galerie</li></NavLink>
+        <NavLink to='/actions'><li>Our Actions</li></NavLink>
+        <NavLink to='/contact'><li>Contact</li></NavLink>
       </ul>
       <img src={mobileMenu ? menu_icon_closed : menu_icon} alt='' className='menu-icon' onClick={toggleMenu}/>
     </nav>
