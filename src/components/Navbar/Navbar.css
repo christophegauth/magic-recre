@@ -82,7 +82,7 @@ nav .lng{
     nav ul{
         position: fixed;
         top: 0;
-        right: 0px;
+        right: 0;
         bottom: 0;
         background: var(--bg3-color);
         z-index: -100;
@@ -94,6 +94,8 @@ nav .lng{
     }
     nav ul li{
         display: block;
+        justify-content: center;
+        align-items: center;
         margin: 25px 40px;
         color: var(--text2-color);
     }
