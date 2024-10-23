@@ -58,7 +58,7 @@ header{
     color: var(--bg1-color);
 }
 .introduction p, .mission p, .vision p, .valeur p{
-    font-size: calc(40 * var(--res));
+    font-size: calc(60 * var(--res));
     line-height: 2rem;
 }
 .mission{
