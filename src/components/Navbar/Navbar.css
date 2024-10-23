@@ -96,7 +96,6 @@ nav .lng{
         display: block;
         justify-content: center;
         align-items: center;
-        margin: 25px 40px;
-        color: var(--text2-color);
+        color: var(--text-color);
     }
 }
