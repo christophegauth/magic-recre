@@ -1,33 +1,56 @@
-import React from 'react'
-import './Footer.css'
-import logo from '../../assets/logo.png'
-import { NavLink, useNavigate } from 'react-router-dom'
+import React from 'react';
+import './Footer.css';
+import logo from '../../assets/logo.png';
+import { NavLink } from 'react-router-dom';
+import { FaFacebookF, FaInstagram, FaTiktok, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
-    <section>
+    <section className='footer'>
       <div>
-        <img src={logo} alt='' width="80px"/>
+        <img src={logo} alt='' width="80px" />
       </div>
       <div className='navs'>
-        <div className='nav'>
-          <ul>
-            <NavLink to='/'><li>Home</li></NavLink>
-            <NavLink to='/about'><li>About</li></NavLink>
-            <NavLink to='/galerie'><li>Galerie</li></NavLink>
-            <NavLink to='/actions'><li>Our Actions</li></NavLink>
-          </ul>
-          <div className='btns'>
-            <button onClick={()=> navigate('/contact')} className='btn'>Contact</button>
-          </div>
+        <ul className='nav'>
+          <NavLink to='/' onClick={scrollToTop}><li>Accueil</li></NavLink>
+          <NavLink to='/about' onClick={scrollToTop}><li>A propos</li></NavLink>
+          <NavLink to='/galerie' onClick={scrollToTop}><li>Galerie</li></NavLink>
+          <NavLink to='/actions' onClick={scrollToTop}><li>Nos actions</li></NavLink>
+          <NavLink to='/contact' onClick={scrollToTop}><li>Contacts</li></NavLink>
+        </ul>
+      </div>
+      <div className='social_media'>
+        <div>
+          <a href="https://www.facebook.com/magicrecre?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+            <FaFacebookF />
+          </a>
         </div>
         <div>
-          <p>hellomagicrecre.agency</p>
+          <a href="https://www.instagram.com/magicrecre/profilecard/?igsh=emozcWxyN3praDBl" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+        </div>
+        <div>
+          <a href="https://www.tiktok.com/@magicrecre?_t=8qZfYTzE64s&_r=1" target="_blank" rel="noopener noreferrer">
+            <FaTiktok />
+          </a>
+        </div>
+        <div>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <FaXTwitter />
+          </a>
         </div>
       </div>
-      <div></div>
     </section>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: "Roboto", sans-serif;
     list-style: none;
     scroll-behavior: smooth;
 }
@@ -25,7 +25,7 @@ h4{
     --text2-color: #fff;
     --bg1-color: #fff;
     --bg2-color: #000;
-    --bg3-color: #BE7B2F;
+    --bg3-color: #f07902;
 
     --res: calc(0.01 * 10vmin);
 }
@@ -58,8 +58,8 @@ header{
     color: var(--bg1-color);
 }
 .introduction p, .mission p, .vision p, .valeur p{
-    font-size: calc(40 * var(--res));
-    line-height: 2rem;
+    font-size: calc(64 * var(--res));
+    line-height: 3rem;
 }
 .mission{
     background-color: var(--bg2-color);
@@ -69,7 +69,7 @@ header{
     align-items: flex-start;
     gap: 1rem;
 }
-.mission button{
+.mission button, .first_galeries button{
     background-color: transparent;
     color: var(--bg1-color);
     outline: none;
@@ -156,7 +156,13 @@ header{
     background-color: #BE7B2F;
 }
 
-
+.first_galeries{
+    background-color: var(--bg2-color);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
 
 .first_galerie img {
     max-width: 100%;
@@ -178,19 +184,19 @@ header{
 }
 .first_galerie{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     grid-auto-flow: dense;
     background-color: var(--bg2-color);
     color: var(--text2-color);
 }
-.item1 {
+.item1, .item2 {
     grid-column: span 2;
     grid-row: span 2;
 }
-.item2 {
+.item3, .item4 {
     grid-column: span 2;
-    grid-row: span 2;
 }
+
 .item{
     position: relative;
     overflow: hidden;
@@ -223,6 +229,9 @@ header{
     transition: 0.1s;
     z-index: 2;
 }
+.caption p{
+    font-size: calc(40 * var(--res)); 
+}
 .item:hover .caption{
     opacity: 1;
     padding-top: 0;
@@ -252,11 +261,17 @@ header{
 .testiomonials{
     background-color: var(--bg1-color);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: dense;
+    place-items: center;
+}
+.testiomonials div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .testiomonials img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     vertical-align: middle;
     display: inline-block;

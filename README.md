@@ -13,6 +13,9 @@ Currently, two official plugins are available:
 
 SEed77ht frcrmz
 
+#f07902
+#02c3fc
+
 ef7802 
 03c2fb
 

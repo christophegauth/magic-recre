@@ -1,33 +1,30 @@
 import React, { useState } from 'react'
-import logo from '../../assets/logo.png'
+import { NavLink} from 'react-router-dom'
 import './Navbar.css'
-import { NavLink } from 'react-router-dom'
-import menu_icon from '../../assets/menu-icon.png'
-import menu_icon_closed from '../../assets/menu-icon-closed.png'
+import logo from '../../assets/logo.png'
+import { FaBars } from "react-icons/fa";
+import { ImCross } from "react-icons/im";
 
 const Navbar = () => {
 
-  const [mobileMenu, setMobileMenu] = useState(false);
-
-  const toggleMenu = ()=>{
-    mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
-  };
-
-  const closeMenu = () => {
-    setMobileMenu(false);
-  };
+  const [Mobile, setMobile] = useState(false)
 
   return (
-    <nav>
+    <nav className='navbar'>
       <img src={logo} alt='' width="80px"/>
-      <ul className={mobileMenu ? '' : 'hide-mobile-menu'}>
-        <NavLink to='/'><li>Home</li></NavLink>
-        <NavLink to='/about'><li>About</li></NavLink>
+      <ul className={Mobile? "nav-links-mobile" : "nav-links"} onClick={() =>setMobile(false)}>
+        <NavLink to='/'><li>Accueil</li></NavLink>
+        <NavLink to='/about'><li>A propos</li></NavLink>
         <NavLink to='/galerie'><li>Galerie</li></NavLink>
-        <NavLink to='/actions'><li>Our Actions</li></NavLink>
-        <NavLink to='/contact'><li>Contact</li></NavLink>
+        <NavLink to='/actions'><li>Nos actions</li></NavLink>
+        <NavLink to='/contact'><li>Contacts</li></NavLink>
+        <span></span>
+        <button className='lng'>en</button>
+        <button className='lng'>fr</button>
       </ul>
-      <img src={mobileMenu ? menu_icon_closed : menu_icon} alt='' className='menu-icon' onClick={toggleMenu}/>
+      <button className='mobile-menu-icon' onClick={() =>setMobile(!Mobile)}>
+        {Mobile ? <ImCross/> : <FaBars />}
+      </button>
     </nav>
 
   )

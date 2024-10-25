@@ -3,7 +3,7 @@ import program_1 from '../assets/cfao.jpg'
 import program_2 from '../assets/huawei.jpg'
 import program_3 from '../assets/cvo.jpg'
 import program_4 from '../assets/monopoly.jpg'
-import program_5 from '../assets/events2.jpg'
+import program_5 from '../assets/event.jpg'
 import logo1 from '../assets/logo1.jpg'
 import logo2 from '../assets/logo2.jpg'
 import logo3 from '../assets/logo3.jpg'
@@ -27,42 +27,39 @@ const Home = () => {
         <p>MAGIC RÉCRÉ est un produit de l'agence COLIBRI AGENCY qui prends en compte le
           volet évènementiel.<br/>
           Nous croyons que le plaisir et le travail d'équipe vont de pair. 
-          Nos activités de team building sont conçues pour renforcer les liens entre 
+          Nos activités sont conçues pour renforcer les liens entre 
           les individus, que ce soit dans un cadre professionnel, scolaire ou familial.
           Rejoignez-nous pour des moments mémorables !
         </p>
       </section>
-      <section className='first_galerie'>
-        <div className='item item1'>  
-          <img src={program_1} alt='' />
-          <div className='caption'>
-            <p>Graduation Degree</p>
+      <section className='first_galeries'>
+        <div className='first_galerie'>
+          <div className='item item1'>  
+            <img src={program_2} alt='' />
+            <div className='caption'>
+              <p>Récré Team Building </p>
+            </div>
+          </div>
+          <div className='item item2'>  
+            <img src={program_1} alt='' />
+            <div className='caption'>
+              <p>Récré Event</p>
+            </div>
+          </div>
+          <div className='item item3'>  
+            <img src={program_3} alt='' />
+            <div className='caption'>
+              <p>Récré School</p>
+            </div>
+          </div>
+          <div className='item item4'>  
+            <img src={program_4} alt='' />
+            <div className='caption'>
+              <p>Récré Family</p>
+            </div>
           </div>
         </div>
-        <div className='item item2'>  
-          <img src={program_2} alt='' />
-          <div className='caption'>
-            <p>Graduation Degree</p>
-          </div>
-        </div>
-        <div className='item item3'>  
-          <img src={program_3} alt='' />
-          <div className='caption'>
-            <p>Graduation Degree</p>
-          </div>
-        </div>
-        <div className='item item4'>  
-          <img src={program_4} alt='' />
-          <div className='caption'>
-            <p>Graduation Degree</p>
-          </div>
-        </div>
-        <div className='item item5'>  
-          <img src={program_5} alt='' />
-          <div className='caption'>
-            <p>Graduation Degree</p>
-          </div>
-        </div>
+
         <div className='item6'>  
           <button onClick={() => navigate('/galerie')} className='btn'>Découvrez Notre Galerie</button>
         </div>
@@ -91,6 +88,12 @@ const Home = () => {
         </div>
         <div>
           <img src={logo6} alt='' />
+        </div>
+        <div>
+          <img src={logo7} alt='' />
+        </div>
+        <div>
+          <img src={logo7} alt='' />
         </div>
         <div>
           <img src={logo7} alt='' />
