@@ -116,8 +116,3 @@ button{
 
 }
 
-@media screen and (max-width: 454px) {
-    nav{
-        margin-bottom: 20rem;
-    }
-}
