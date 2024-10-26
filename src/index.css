@@ -338,7 +338,7 @@ header{
         height: 80vh;
     }
     .hero h1{
-        font-size: calc(128 * var(--res));
+        font-size: calc(144 * var(--res));
         max-width: 700px;
         line-height: 3rem;
         margin-top: 5rem;
@@ -369,10 +369,3 @@ header{
     }
 }
 
-@media screen and (max-width: 454px) {
-    .hero h1{
-        font-size: calc(128 * var(--res));
-        width: 100%;
-        line-height: 3rem;
-    }
-}
