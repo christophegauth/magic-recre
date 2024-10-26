@@ -378,9 +378,5 @@ header{
         font-size: calc(104 * var(--res));
         width: 100%;
         line-height: 3rem;
-        margin-top: 10rem;
-    }
-    .introduction{
-        margin-top: 5rem;
     }
 }
