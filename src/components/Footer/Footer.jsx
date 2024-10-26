@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <section className='footer'>
-      <div>
+      <div className='logo_footer'>
         <img src={logo} alt='' width="80px" />
       </div>
       <div className='navs'>
@@ -26,6 +26,8 @@ const Footer = () => {
           <NavLink to='/actions' onClick={scrollToTop}><li>Nos actions</li></NavLink>
           <NavLink to='/contact' onClick={scrollToTop}><li>Contacts</li></NavLink>
         </ul>
+        <p>contact@magicrecre.com</p>
+        <p>&copy; October 2024 Magic Récré, All Rights Reserved.<br/> Developed by SOKPOLY Christophe.</p>
       </div>
       <div className='social_media'>
         <div>
