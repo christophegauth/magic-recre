@@ -374,6 +374,6 @@ header{
         font-size: calc(104 * var(--res));
         width: 100%;
         line-height: 3rem;
-        margin-top: 15rem;
+        margin-top: 20rem;
     }
 }
