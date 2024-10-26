@@ -371,9 +371,8 @@ header{
 
 @media screen and (max-width: 454px) {
     .hero h1{
-        font-size: calc(104 * var(--res));
+        font-size: calc(128 * var(--res));
         width: 100%;
         line-height: 3rem;
-        margin-top: 5rem;
     }
 }
