@@ -61,3 +61,9 @@
 .social_media div:hover{
     transform: scale(1.5);
 }
+
+@media screen and (max-width: 800px){
+    .footer{
+        display: none;
+    }
+}

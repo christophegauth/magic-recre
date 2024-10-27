@@ -291,7 +291,7 @@ header{
 .testimonials{
     background-color: var(--bg1-color);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: dense;
     place-items: center;
 }
@@ -301,7 +301,7 @@ header{
     align-items: center;
 }
 .testimonials img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     vertical-align: middle;
     display: inline-block;
@@ -314,6 +314,27 @@ header{
         font-size: calc(128 * var(--res));
         max-width: 700px;
         line-height: 4.5rem;
+    }
+}
+@media screen and (max-width: 914px) {
+    .testimonials{
+        background-color: var(--bg1-color);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+        grid-auto-flow: dense;
+        place-items: center;
+    }
+}
+@media screen and (max-width: 762px) {
+    .testimonials{
+        background-color: var(--bg1-color);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+        grid-auto-flow: dense;
+        place-items: center;
+    }
+    .testimonials img {
+        max-width: 70%;
     }
 }
 @media screen and (max-width: 785px) {
@@ -344,8 +365,8 @@ header{
         margin-top: 5rem;
     }
     .introduction p, .mission p, .vision p, .valeur p{
-        font-size: calc(32 * var(--res));
-        line-height: 2rem;
+        font-size: calc(64 * var(--res));
+        line-height: 3rem;
     }
     .first_galerie{
         display: grid;
@@ -383,5 +404,30 @@ header{
         font-size: calc(104 * var(--res));
         width: 100%;
         line-height: 3rem;
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .testimonials{
+        background-color: var(--bg1-color);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+        grid-auto-flow: dense;
+        place-items: center;
+    }
+    .testimonials img {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .testimonials{
+        background-color: var(--bg1-color);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        grid-auto-flow: dense;
+        place-items: center;
+    }
+    .testimonials img {
+        max-width: 100%;
     }
 }
