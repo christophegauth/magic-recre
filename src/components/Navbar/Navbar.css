@@ -81,6 +81,9 @@ button{
         align-items: center;
         padding: 15px 0;
         height: 20vh;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
     .nav-links{
         display: none;
