@@ -51,7 +51,7 @@ const Footer = () => {
       </div>
       <div className='footer2'>
         <p>contact@magicrecre.com</p>
-        <p>&copy; October 2024 Magic Récré, All Rights Reserved. Developed by SOKPOLY Christophe.</p>
+        <p> &copy; October 2024 Magic Récré, All Rights Reserved. Developed by SOKPOLY Christophe.</p>
       </div>
     </section>
   );

@@ -59,4 +59,7 @@
     .nav, .social_media{
         display: none;
     }
+    .footer2{
+        text-align: center;
+    }
 }

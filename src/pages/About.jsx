@@ -1,32 +1,21 @@
 import React from 'react'
+import { FaArrowRight } from "react-icons/fa6";
 
 const About = () => {
   return (
     <div>
       <section className='vision'>
-        <h2>Notre Vision</h2>
-        <p>Nous visons à favoriser l'inclusion sociale, à créer des connexions authentiques
-          entre les personnes et à offrir des expériences qui marquent.
+        <p>
+          Nous visons à favoriser l'inclusion sociale en créant des connexions authentiques 
+          entre les personnes et en offrant des expériences mémorables.<br/> Au cœur de notre 
+          engagement se trouvent des valeurs essentielles : 
         </p>
-      </section>
-      <section className='valeurs'>
-        <h2>Nos Valeurs</h2>
-        <div className='valeur valeur1'>
-          <h3>Esprit d'Équipe</h3>
-          <p>Nous encourageons la collaboration et l'entraide.</p>
-        </div>
-        <div className='valeur valeur2'>
-          <h3>Inclusion</h3>
-          <p>Nos activités sont accessibles à tous.</p>
-        </div>
-        <div className='valeur valeur3'>
-          <h3>Amusement</h3>
-          <p>Le plaisir est au cœur de tout ce que nous faisons.</p>
-        </div>
-        <div className='valeur valeur4'>
-          <h3>Développement Personnel</h3>
-          <p>Nous croyons en la croissance individuelle à travers l'interaction.</p>
-        </div>
+        <ul>
+          <li><FaArrowRight className="arrow"/>Esprit d'équipe, où la collaboration et l'entraide sont encouragées;</li>
+          <li><FaArrowRight className="arrow"/>Inclusion, pour garantir que nos activités soient accessibles à tous;</li>
+          <li><FaArrowRight className="arrow"/>Divertissement, car le plaisir anime chaque aspect de notre démarche;</li>
+          <li><FaArrowRight className="arrow"/>Développement personnel, convaincus que chaque interaction contribue à la croissance individuelle.</li>
+        </ul>
       </section>
       <section className='services'>
         <h2>Nos Services</h2>
