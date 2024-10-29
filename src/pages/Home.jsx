@@ -91,17 +91,20 @@ const Home = () => {
         </div>
       </section>
       <section className='mission'>
-        <p>Nous contribuons au renforcement de <span>l'estime de soi</span> et <sapn>libérons</sapn>
+        <p>Nous contribuons au renforcement de <span>l'estime de soi</span> et <sapn> libérons</sapn>
           le meilleur en chaque individu à travers des <sapn>jeux</sapn> et des activités interactives.
         </p>
         <button onClick={() => navigate('/about')} className='btn'>Découvrez Nos Services</button>
       </section>
-      <section className='testimonials'>
-        {[logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo7, logo7, logo7].map((logo, index) => (
-          <div key={index}>
-            <img src={logo} alt='' />
-          </div>
-        ))}
+      <section className='testimonial'>
+        <h2>Ils nous ont fait confiance</h2>
+        <div className='testimonials'>
+          {[logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo7, logo7, logo7].map((logo, index) => (
+            <div key={index}>
+              <img src={logo} alt='' />
+            </div>
+          ))}
+        </div>
       </section>
     </div>    
   );

@@ -11,13 +11,11 @@ a{
     color: inherit;
 }
 h2{
-    font-size: calc(150 * var(--res));
+    font-size: calc(112 * var(--res));
     margin-bottom: 2%;
     font-weight: 600;
     color: var(--bg3-color);
 }
-
-    
 :root{
     --text-color: #000;
     --text2-color: #fff;
@@ -281,14 +279,19 @@ header{
     margin-top: 5px;
     resize: none;
 }
-
-.testimonials{
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--bg1-color);
+    padding: 2.5% 7.5% 5%;
+}
+.testimonials{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: dense;
     place-items: center;
-    padding: 2.5% 7.5% 5%;
 }
 .testimonials div {
     display: flex;
