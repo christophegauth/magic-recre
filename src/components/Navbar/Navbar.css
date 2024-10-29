@@ -67,7 +67,7 @@ button{
     }
     .nav-links-mobile{
         position: absolute;
-        top: 6rem;
+        top: 4rem;
         right: 0rem;
         z-index: 2;
         display: block;
