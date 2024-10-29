@@ -28,7 +28,6 @@ h2{
     --res: calc(0.01 * 10vmin);
 }
 section{
-    padding: 10% 6%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,6 +85,7 @@ header{
     background-color: var(--bg2-color);
     color: var(--bg1-color);
     padding-bottom: 0;
+    padding: 7.5%;
 }
 
 .introduction p, .mission p, .vision p{
@@ -99,6 +99,7 @@ header{
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    padding: 7.5% 7.5% 0;
 }
 
 .mission button, .first_galeries button{
@@ -184,6 +185,7 @@ header{
     flex-direction: column;
     align-items: start;
     gap: 2rem;
+    padding: 0 7.5% 7.5%;
 }
 
 .first_galerie img {
@@ -286,7 +288,7 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: dense;
     place-items: center;
-    padding: 8% 9% 0;
+    padding: 2.5% 7.5% 5%;
 }
 .testimonials div {
     display: flex;
