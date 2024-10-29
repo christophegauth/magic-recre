@@ -114,7 +114,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-bottom: 0;
+    padding: 7.5%;
 }
 .vision ul{
     display: flex;
@@ -139,6 +139,7 @@ header{
     flex-direction: column;
     align-items: center;
     align-items: center;
+    padding: 0 7.5% 7.5%;
 }
 .services h4{
     font-size: calc(48 * var(--res));
@@ -147,9 +148,10 @@ header{
 
 .service{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: dense;
     color: var(--text2-color);
+    overflow: hidden;
 }
 .service > div{
     display: flex;
@@ -364,6 +366,9 @@ header{
     .introduction p, .mission p, .vision p, .valeur p{
         line-height: 3.3rem;
     }
+    .service{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media screen and (max-width: 834px){
     header{
@@ -379,6 +384,9 @@ header{
     }
     .introduction p, .mission p, .vision p, .valeur p{
         line-height: 3rem;
+    }
+    .service{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media screen and (max-width: 768px){
@@ -399,6 +407,9 @@ header{
     }
     .testimonials img {
         max-width: 100%;
+    }
+    .service{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media screen and (max-width: 430px) {
@@ -428,6 +439,15 @@ header{
     }
     .testimonials img {
         max-width: 100%;
+    }
+    .service{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service .sv{
+        display: none;
+    }
+    .vision{
+        margin-top: 25%;
     }
 }
 
