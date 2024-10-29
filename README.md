@@ -17,17 +17,7 @@ SEed77ht frcrmz
 ef7802 
 03c2fb
 
-Chilean Fire
-#f37b04
 
-Bright Turquoise
-#04c3fb
-
-Avocado
-#949460
-
-Oxley
-#749c84
 
 
 Nous créons des connexions pour une harmonie pérenne !"
@@ -42,17 +32,7 @@ Je veux crer un site pour une agence de team building d'enommer Magic recre. L'a
 Introduction : Un court texte présentant l'agence.
 Exemple : "Bienvenue chez Magic Récré, votre partenaire pour des activités de team building au Bénin, Togo, Ghana et Côte d'Ivoire. Nous aidons toutes les couches de la société à s'épanouir à travers des jeux sportifs et interactifs."
 
-3. Nos services
-Activités Team Building :
-Description : "Des activités conçues pour renforcer la collaboration et le travail d'équipe dans les institutions."
-Recre Event :
-Description : "Des formules adaptées à tous les événements de détente pour tous les âges."
-Recre Family :
-Description : "Aider les familles à recréer des liens en partageant des moments de joie et de découverte."
-Recre School :
-Description : "Offrir aux apprenants des activités saines pour se divertir et développer leur esprit d'équipe."
-Recre Team Building :
-Description : "Programmes spécifiques pour les institutions visant à améliorer la cohésion et l'efficacité du personnel."
+
 4. Activités
 Présentation des jeux : Une galerie d'images et de descriptions des différents jeux et activités proposés, comme des jeux de coopération, des courses d'obstacles, des jeux de rôle, etc.
 Témoignages : Avis de clients satisfaits.
