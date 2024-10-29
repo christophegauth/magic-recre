@@ -11,7 +11,7 @@ a{
     color: inherit;
 }
 h2{
-    font-size: calc(112 * var(--res));
+    font-size: calc(96 * var(--res));
     margin-bottom: 2%;
     font-weight: 600;
     color: var(--bg3-color);
@@ -286,6 +286,9 @@ header{
     align-items: center;
     background-color: var(--bg1-color);
     padding: 2.5% 7.5% 5%;
+}
+.testimonial h2{
+    text-align: center;
 }
 .testimonials{
     display: grid;
