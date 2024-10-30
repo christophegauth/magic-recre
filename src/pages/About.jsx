@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa6";
 
+
 const About = () => {
   return (
     <div>
@@ -17,7 +18,7 @@ const About = () => {
           <li><FaArrowRight className="arrow"/>Développement personnel, convaincus que chaque interaction contribue à la croissance individuelle.</li>
         </ul>
       </section>
-      <section className='services'>
+      <section className='services' id="nos-services">
         <h2>Nos Services</h2>
         <div className='service'>
           <div className='sv'></div>

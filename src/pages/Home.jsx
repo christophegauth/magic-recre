@@ -11,6 +11,7 @@ import logo5 from '../assets/logo5.png';
 import logo6 from '../assets/logo6.png';
 import logo7 from '../assets/logo7.jpeg';
 import { useNavigate } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -94,7 +95,9 @@ const Home = () => {
         <p>Nous contribuons au renforcement de <span>l'estime de soi</span> et <sapn> libérons</sapn>
           le meilleur en chaque individu à travers des <sapn>jeux</sapn> et des activités interactives.
         </p>
-        <button onClick={() => navigate('/about')} className='btn'>Découvrez Nos Services</button>
+        <button className='btn'>
+          <Link smooth to="/about#nos-services">Découvrez Nos Services</Link>
+        </button>
       </section>
       <section className='testimonial'>
         <h2>Ils nous ont fait confiance</h2>

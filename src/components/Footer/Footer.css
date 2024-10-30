@@ -46,6 +46,34 @@
 .social_media div:hover{
     transform: scale(1.5);
 }
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+}
+.footer2 button{
+    display: none;
+}
+.btn-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 8px 12px;
+    background-color: var(--bg2-color);
+    color: var(--bg1-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-top .icon {
+    animation: bounce 1s infinite;
+}
+  
 @media screen and (max-width: 1300px){
     .footer1{
         gap: 3.5rem;
@@ -74,5 +102,8 @@
     }
     .footer2{
         text-align: center;
+    }
+    .footer2 button{
+        display: block;
     }
 }
