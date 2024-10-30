@@ -99,7 +99,7 @@ const Home = () => {
       <section className='testimonial'>
         <h2>Ils nous ont fait confiance</h2>
         <div className='testimonials'>
-          {[logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo1, logo2].map((logo, index) => (
+          {[logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo1, logo2, logo3, logo4, logo5].map((logo, index) => (
             <div key={index}>
               <img src={logo} alt='' />
             </div>

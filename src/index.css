@@ -278,10 +278,11 @@ header{
 }
 .testimonial h2{
     text-align: center;
+    color: var(--text-color);
 }
 .testimonials{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     grid-auto-flow: dense;
     place-items: center;
 }
@@ -305,7 +306,7 @@ header{
     .testimonials{
         background-color: var(--bg1-color);
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-auto-flow: dense;
         place-items: center;
     }
@@ -383,6 +384,10 @@ header{
     .vision{
         margin-top: 13%;
     }
+    .testimonials{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
 @media screen and (max-width: 768px){
     header{
@@ -394,11 +399,8 @@ header{
         margin-bottom: 7rem;
     }
     .testimonials{
-        background-color: var(--bg1-color);
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
-        grid-auto-flow: dense;
-        place-items: center;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
     .testimonials img {
         max-width: 100%;
@@ -429,12 +431,8 @@ header{
         line-height: 2.5rem;
     }
     .testimonials{
-        background-color: var(--bg1-color);
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-auto-flow: dense;
-        place-items: center;
+        grid-template-rows: repeat(3, 1fr);
     }
     .testimonials img {
         max-width: 100%;
