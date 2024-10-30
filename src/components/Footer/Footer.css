@@ -46,7 +46,14 @@
 .social_media div:hover{
     transform: scale(1.5);
 }
-
+@media screen and (max-width: 1300px){
+    .footer1{
+        gap: 3.5rem;
+    }
+    .footer ul li{
+        margin: 0 7px;
+    }
+}
 @media screen and (max-width: 1114px){
     .footer1{
         gap: 3rem;
@@ -55,7 +62,7 @@
         margin: 0 7.5px;
     }
 }
-@media screen and (max-width: 835px){
+@media screen and (max-width: 900px){
     .footer .nav{
         display: none;
     }

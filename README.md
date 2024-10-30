@@ -8,19 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-<section className='vision'>
-        <p>
-          Nous visons à favoriser l'inclusion sociale en créant des connexions authentiques 
-          entre les personnes et en offrant des expériences mémorables.<br/> Au cœur de notre 
-          engagement se trouvent des valeurs essentielles : 
-        </p>
-        <ul>
-          <li><FaArrowRight className="arrow"/>Esprit d'équipe, où la collaboration et l'entraide sont encouragées;</li>
-          <li><FaArrowRight className="arrow"/>Inclusion, pour garantir que nos activités soient accessibles à tous;</li>
-          <li><FaArrowRight className="arrow"/>Divertissement, car le plaisir anime chaque aspect de notre démarche;</li>
-          <li><FaArrowRight className="arrow"/>Développement personnel, convaincus que chaque interaction contribue à la croissance individuelle.</li>
-        </ul>
-      </section>
+
       <section className='services'>
         <h2>Nos Services</h2>
         <div className='service'>
@@ -48,7 +36,7 @@ Currently, two official plugins are available:
       </section>
 
 
-      
+
 SEed77ht frcrmz
 
 #f07902
