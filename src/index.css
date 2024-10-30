@@ -114,12 +114,6 @@ header{
     align-items: flex-start;
     padding: 7.5%;
 }
-.vision ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .vision ul li{
     margin-left: 2rem;
 }
