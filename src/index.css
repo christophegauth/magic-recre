@@ -425,7 +425,7 @@ header{
     }
     .introduction p, .mission p, .vision p, .valeur p{
         font-size: calc(72 * var(--res));
-        line-height: 2.5rem;
+        line-height: 2rem;
     }
     .testimonials{
         grid-template-columns: repeat(4, 1fr);
@@ -442,6 +442,10 @@ header{
     }
     .vision{
         margin-top: 22%;
+    }
+    .vision ul li{
+        font-size: calc(72 * var(--res));
+        line-height: 2rem;
     }
     .service > div{
         display: flex;
