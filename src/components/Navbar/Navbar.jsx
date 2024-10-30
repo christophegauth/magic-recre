@@ -19,8 +19,10 @@ const Navbar = () => {
         <NavLink to='/actions'><li>Nos actions</li></NavLink>
         <NavLink to='/contact'><li>Contacts</li></NavLink>
         <span></span>
-        <button className='lng'>en</button>
-        <button className='lng'>fr</button>
+        <div>
+          <button className='lng'>en</button>
+          <button className='lng'>fr</button>
+        </div>
       </ul>
       <button className='mobile-menu-icon' onClick={() =>setMobile(!Mobile)}>
         {Mobile ? <ImCross/> : <FaBars />}

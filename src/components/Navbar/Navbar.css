@@ -8,6 +8,9 @@ nav{
 }
 nav ul{
     padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav ul li{
     display: inline-block;
@@ -54,7 +57,7 @@ button{
     nav{
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding: 15px 0;
         height: 10vh;
@@ -66,18 +69,23 @@ button{
         display: none;
     }
     .nav-links-mobile{
+        display: block;
+    }
+    .nav-links-mobile{
         position: absolute;
-        top: 6rem;
+        top: 8rem;
         right: 0rem;
         z-index: 2;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         list-style: none;
         box-shadow: rgba(50, 50, 93, 0.23);
         transition: all 0.5s ease-in-out;
         width: 100%;
         height: 100vh;
         background-color: white;
-        text-align: center;
     }
     .nav-links-mobile span{
         display: none;
@@ -98,6 +106,13 @@ button{
         display: block;
         right: 20px;
         font-size: 40px;
+    }
+    nav .lng{
+        font-size: calc(60 * var(--res));
+        margin: 1rem 0.5rem;
+    }
+    button{
+        font-size: 15px;
     }
 
 }
