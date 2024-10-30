@@ -299,9 +299,6 @@ header{
     position: relative;
     object-fit: cover;
 }
-@media screen and (max-width: 1300px){
-
-}
 @media screen and (max-width: 1114px) {
     .testimonials{
         background-color: var(--bg1-color);
@@ -445,6 +442,22 @@ header{
     }
     .vision{
         margin-top: 22%;
+    }
+    .service > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem;
+        height: 40vh;
+        width: auto;
+    }
+    .services h3{
+        font-size: calc(80 * var(--res));
+        margin-bottom: 3%;
+    }
+    .service p{
+        font-size: calc(68 * var(--res));
     }
 }
 
