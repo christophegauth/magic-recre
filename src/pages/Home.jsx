@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import program_1 from '../assets/cfao.jpg';
 import program_2 from '../assets/huawei.jpg';
-import program_3 from '../assets/cvo.jpg';
-import program_4 from '../assets/monopoly.jpg';
+import program_3 from '../assets/recreSchool.jpg';
+import program_4 from '../assets/recreFamily.jpg';
 import logo1 from '../assets/logo1.jpg';
 import logo2 from '../assets/logo2.jpg';
 import logo3 from '../assets/logo3.jpg';
@@ -38,7 +38,7 @@ const Home = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Exécute une fois pour vérifier la position actuelle
+    handleScroll(); 
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
