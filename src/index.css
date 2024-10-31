@@ -10,12 +10,6 @@ a{
     text-decoration: none;
     color: inherit;
 }
-h2{
-    font-size: calc(96 * var(--res));
-    margin-bottom: 7%;
-    font-weight: 600;
-    color: var(--bg3-color);
-}
 :root{
     --text-color: #000;
     --text2-color: #fff;
@@ -85,9 +79,9 @@ header{
     padding-bottom: 0;
     padding: 7.5%;
 }
-.introduction p, .mission p, .vision p, .vision li{
-    font-size: calc(65 * var(--res));
-    line-height: 3.5rem;
+.introduction p, .mission p, .vision p{
+    font-size: calc(57 * var(--res));
+    line-height: 3rem;
 }
 .mission{
     background-color: var(--bg2-color);
@@ -111,8 +105,14 @@ header{
     color: var(--text2-color);
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 7.5%;
+}
+.vision h2{
+    font-size: calc(96 * var(--res));
+    margin-bottom: 7%;
+    font-weight: 600;
+    color: var(--bg3-color);
 }
 .vision ul li{
     margin-left: 2rem;
@@ -130,6 +130,12 @@ header{
     align-items: center;
     align-items: center;
     padding: 0 7.5% 7.5%;
+}
+.services h2{
+    font-size: calc(96 * var(--res));
+    margin-bottom: 9%;
+    font-weight: 600;
+    color: var(--bg3-color);
 }
 .services h3{
     font-size: calc(48 * var(--res));
@@ -273,6 +279,9 @@ header{
 .testimonial h2{
     text-align: center;
     color: var(--text-color);
+    font-size: calc(96 * var(--res));
+    margin-bottom: 7%;
+    font-weight: 600;
 }
 .testimonials{
     display: grid;
@@ -418,7 +427,7 @@ header{
         padding-top: 10rem;
     }
     .introduction p, .mission p, .vision p, .valeur p{
-        font-size: calc(72 * var(--res));
+        font-size: calc(64 * var(--res));
         line-height: 2rem;
     }
     .testimonials{

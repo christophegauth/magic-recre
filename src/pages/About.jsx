@@ -1,22 +1,19 @@
 import React from 'react'
-import { FaArrowRight } from "react-icons/fa6";
 
 
 const About = () => {
   return (
     <div>
       <section className='vision'>
+        <h2>Notre Visions</h2>
         <p>
-          Nous visons à favoriser l'inclusion sociale en créant des connexions authentiques 
-          entre les personnes et en offrant des expériences mémorables.<br/> Au cœur de notre 
-          engagement se trouvent des valeurs essentielles : 
+        Favoriser l'inclusion sociale en créant des connexions authentiques entre les personnes et en offrant des expériences mémorables.
+        Au cœur de notre engagement se trouvent des valeurs essentielles : <br/>
+        Esprit d'équipe, où la collaboration et l'entraide sont encouragées; <br/>
+        Inclusion, pour garantir que nos activités soient accessibles à tous; <br/>
+        Divertissement, car le plaisir anime chaque aspect de notre démarche; <br/>
+        Développement personnel, convaincus que chaque interaction contribue à la croissance individuelle.
         </p>
-        <ul>
-          <li><FaArrowRight className="arrow"/>Esprit d'équipe, où la collaboration et l'entraide sont encouragées;</li>
-          <li><FaArrowRight className="arrow"/>Inclusion, pour garantir que nos activités soient accessibles à tous;</li>
-          <li><FaArrowRight className="arrow"/>Divertissement, car le plaisir anime chaque aspect de notre démarche;</li>
-          <li><FaArrowRight className="arrow"/>Développement personnel, convaincus que chaque interaction contribue à la croissance individuelle.</li>
-        </ul>
       </section>
       <section className='services' id="nos-services">
         <h2>Nos Services</h2>
