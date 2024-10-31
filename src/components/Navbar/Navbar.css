@@ -101,7 +101,7 @@ button{
     nav ul li{
         padding: 15px;
         width: 100%;
-        font-size: calc(60 * var(--res)); 
+        font-size: calc(76 * var(--res)); 
         transition: all 1s ease; 
         text-align: center;
     }
@@ -115,7 +115,7 @@ button{
         font-size: 40px;
     }
     nav .lng{
-        font-size: calc(60 * var(--res));
+        font-size: calc(76 * var(--res));
         margin: 1rem 0.5rem;
     }
 
