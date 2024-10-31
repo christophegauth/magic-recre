@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../../assets/logo.png';
@@ -7,6 +7,17 @@ import { ImCross } from "react-icons/im";
 
 const Navbar = () => {
   const [Mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    if (Mobile) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+
+    // Supprimer la classe 'no-scroll' si le composant est démonté
+    return () => document.body.classList.remove('no-scroll');
+  }, [Mobile]);
 
   return (
     <nav className='navbar'>

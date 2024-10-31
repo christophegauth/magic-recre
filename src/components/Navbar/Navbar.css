@@ -50,7 +50,9 @@ button{
 .mobile-menu-icon{
     display: none;
 }
-  
+.no-scroll{
+    overflow: hidden;
+}
 
 
 @media screen and (max-width: 900px){
