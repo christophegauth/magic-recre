@@ -17,6 +17,7 @@ nav ul li{
     margin: 0 10px;
     font-size: calc(40 * var(--res));  
     transition: all 1s ease;     
+    font-weight: bold;
 }
 
 nav ul li:hover{

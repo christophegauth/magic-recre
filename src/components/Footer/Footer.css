@@ -1,50 +1,87 @@
 .footer{
+    background-color: var(--bg2-color);
+    color: var(--text2-color);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 7.5%;
-}
-.footer1{
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    padding: 7.5%;
 }
-.footer2{
+.footer1{
+    border-top: 1px solid var(--bg1-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 7.5rem;
+}
+.nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 2rem;
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
+    gap: 1.5rem;
 }
 .footer ul li{
     display: inline-block;
-    margin: 0 10px;
-    color: var(--text-color);
     font-size: calc(40 * var(--res));     
     transition: all 1s ease;  
+    font-weight: bold;
 }
 .footer ul li:hover{
     transform: scale(1.1);
 }
+.some_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.social_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+h3{
+    font-size: calc(37 * var(--res));     
+    font-weight: bold;
+}
 .social_media{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 1.5rem;
+}
+.social_media a{
+    font-size: calc(37 * var(--res));
+    transition: all 1s ease; 
+}
+.social_media a:hover{
+    transform: scale(1.5);
+    color: var(--bg3-color);
 }
 .social_media div{
     transition: all 1s ease;
 }
 .social_media div:hover{
     transform: scale(1.5);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+.contact div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: calc(27 * var(--res));
 }
 @keyframes bounce {
     0%, 100% {
@@ -75,35 +112,11 @@
 }
   
 @media screen and (max-width: 1300px){
-    .footer1{
-        gap: 3.5rem;
-    }
-    .footer ul li{
-        margin: 0 7px;
-    }
+
 }
 @media screen and (max-width: 1114px){
-    .footer1{
-        gap: 3rem;
-    }
-    .footer ul li{
-        margin: 0 7.5px;
-    }
+
 }
 @media screen and (max-width: 900px){
-    .footer .nav{
-        display: none;
-    }
-    .footer1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer2{
-        text-align: center;
-    }
-    .footer2 button{
-        display: block;
-    }
+
 }

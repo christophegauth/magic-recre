@@ -8,32 +8,39 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-
-      <section className='services'>
-        <h2>Nos Services</h2>
-        <div className='service'>
-          <div className='sv'></div>
-          <div className='s1'>
-            <h4>Récré Team Building</h4>
-            <p>Des activités conçues pour renforcer la collaboration et le travail d'équipe dans les institutions.</p>
-          </div>
-          <div className='sv'></div>
-          <div className='s2'>
-            <h4>Récré Event</h4>
-            <p>Des formules adaptées à tous les événements de détente pour tous les âges.</p>
-          </div>
-          <div className='s3'>
-            <h4>Récré Family</h4>
-            <p>Aider les familles à recréer des liens en partageant des moments de joie et de découverte.</p>
-          </div>
-          <div className='sv'></div>
-          <div className='s4'>
-            <h4>Récré School</h4>
-            <p>Offrir aux apprenants des activités saines pour se divertir et développer leur esprit d'équipe.</p>
-          </div>
-          <div className='sv'></div>
+<div className='footer1'>
+        <div className='logo_footer'>
+          <img src={logo} alt='Magic Récré logo' width="80px" />
         </div>
-      </section>
+        <ul className='nav'>
+          <NavLink to='/' onClick={scrollToTop}><li>Accueil</li></NavLink>
+          <NavLink to='/about' onClick={scrollToTop}><li>A propos</li></NavLink>
+          <NavLink to='/galerie' onClick={scrollToTop}><li>Galerie</li></NavLink>
+          <NavLink to='/actions' onClick={scrollToTop}><li>Nos actions</li></NavLink>
+        </ul>
+        <div className='social_media'>
+          <a href="https://www.facebook.com/magicrecre?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+            <FaFacebookF />
+          </a>
+          <a href="https://www.instagram.com/magicrecre/profilecard/?igsh=emozcWxyN3praDBl" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+          </a>
+          <a href="https://www.tiktok.com/@magicrecre?_t=8qZfYTzE64s&_r=1" target="_blank" rel="noopener noreferrer">
+            <FaTiktok />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <FaXTwitter />
+          </a>
+        </div>
+      </div>
+      <div className='footer2'>
+        <p>contact@magicrecre.com</p>
+        <p> &copy; October 2024 Magic Récré, All Rights Reserved. Developed by SOKPOLY Christophe.</p>
+        <button onClick={scrollToTop} className='btn-top'>
+          <FaArrowUp className="icon" />
+        </button>
+      </div>
+            
 
 
 

@@ -257,24 +257,13 @@ header{
 .item6 button:hover, .mission button:hover{
     transform: scale(1.1);
 }
-.contact form input, .contact form textarea{
-    display: block;
-    width: 100%;
-    background: #EBECFE;
-    padding: 15px;
-    border: 0;
-    outline: 0;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    resize: none;
-}
 .testimonial{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--bg1-color);
-    padding: 7.5% 7.5% 0;
+    padding: 7.5%;
 }
 .testimonial h2{
     text-align: center;

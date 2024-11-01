@@ -27,7 +27,6 @@ const Navbar = () => {
         <NavLink to='/about'><li>A propos</li></NavLink>
         <NavLink to='/galerie'><li>Galerie</li></NavLink>
         <NavLink to='/actions'><li>Nos actions</li></NavLink>
-        <NavLink to='/contact'><li>Contacts</li></NavLink>
         <span></span>
         <div>
           <button className='lng'>en</button>
