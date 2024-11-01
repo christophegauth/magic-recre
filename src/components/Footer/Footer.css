@@ -135,6 +135,6 @@ h3{
         gap: 1.5rem;
     }
     .social_media a, h3{
-        font-size: calc(40 * var(--res));
+        font-size: calc(60 * var(--res));
     }
 }

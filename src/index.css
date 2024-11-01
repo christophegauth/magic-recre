@@ -420,7 +420,7 @@ header{
         line-height: 2rem;
     }
     .testimonials{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
     .testimonials img {
