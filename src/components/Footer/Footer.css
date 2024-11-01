@@ -14,7 +14,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 7.5rem;
 }
 .nav{
     display: flex;
@@ -100,8 +99,8 @@ h3{
     gap: 8px;
     margin-top: 12px;
     padding: 8px 12px;
-    background-color: var(--bg2-color);
-    color: var(--bg1-color);
+    background-color: var(--bg1-color);
+    color: var(--bg2-color);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -111,12 +110,28 @@ h3{
     animation: bounce 1s infinite;
 }
   
-@media screen and (max-width: 1300px){
 
-}
-@media screen and (max-width: 1114px){
-
-}
-@media screen and (max-width: 900px){
-
+@media screen and (max-width: 600px){
+    .footer2 button{
+        display: block;
+    }
+    .footer .nav{
+        display: none;
+    }
+    .logo_footer img{
+        width: 100px;
+        margin-top: 1rem;
+    }
+    .footer1{
+        border-top: 1px solid var(--bg1-color);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 1rem;
+    }
+    .social_links, .contact{
+        gap: 1.5rem;
+    }
 }
