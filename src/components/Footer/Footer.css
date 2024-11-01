@@ -134,4 +134,7 @@ h3{
     .social_links, .contact{
         gap: 1.5rem;
     }
+    .social_media a, h3{
+        font-size: calc(40 * var(--res));
+    }
 }
