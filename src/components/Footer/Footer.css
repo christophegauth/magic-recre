@@ -122,6 +122,12 @@ h3{
         width: 100px;
         margin-top: 1rem;
     }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
     .footer1{
         border-top: 1px solid var(--bg1-color);
         width: 100%;
@@ -130,6 +136,12 @@ h3{
         justify-content: center;
         align-items: start;
         gap: 1rem;
+    }
+    .social_links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
     }
     .social_links, .contact{
         gap: 1.5rem;
