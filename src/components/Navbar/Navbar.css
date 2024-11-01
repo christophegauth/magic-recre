@@ -6,6 +6,32 @@ nav{
     padding: 15px 6%;
     height: 20vh;
 }
+.nav-links-mobile.mobile-links-home {
+    background-color: var(--bg1-color);
+    color: var(--bg2-color);
+}
+.nav-links-mobile.mobile-links-about {
+    background-color: var(--bg2-color);
+    color: var(--bg1-color);
+}
+.nav-links-mobile.mobile-links-galerie {
+    background-color: transparent;
+}
+.nav-links-mobile.mobile-links-actions {
+    background-color: transparent;
+}
+.lng.lng-home {
+    color: var(--bg2-color);
+}
+.lng.lng-about {
+    color: var(--bg1-color);
+}
+.lng.lng-galerie {
+    color: transparent;
+}
+.lng.lng-actions {
+    color: transparent;
+}
 nav ul{
     padding: 10px 30px;
     display: flex;
