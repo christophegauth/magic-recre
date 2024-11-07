@@ -8,6 +8,13 @@ import { ImCross } from "react-icons/im";
 const Navbar = () => {
   const [Mobile, setMobile] = useState(false);
   const location = useLocation(); 
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(()=>{
+    window.addEventListener('scroll', ()=>{
+      window.scrollY > 60 ? setSticky(true) : setSticky(false);
+    })
+   },[]);
 
   useEffect(() => {
     if (Mobile) {
@@ -49,7 +56,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='navbar'>
+    <nav className={`container ${sticky? 'dark-nav' : ''}`}>
       <img src={logo} alt='logo' width="80px"/>
       <ul 
         className={`${Mobile ? "nav-links-mobile show" : "nav-links"} ${getMobileLinksClass()}`} 

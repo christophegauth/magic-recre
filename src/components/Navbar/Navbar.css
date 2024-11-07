@@ -7,6 +7,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 .nav-links-mobile.mobile-links-home {
     background-color: var(--bg1-color);
@@ -61,6 +62,11 @@ nav span{
     height: 3vh;
     width: 2px;
 }
+.dark-nav{
+    background: transparent;
+    backdrop-filter: blur(25px);
+    transition: 0.5s;
+  }
 nav .lng{
     background-color: transparent;
     outline: 0;
