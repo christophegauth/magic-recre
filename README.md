@@ -39,7 +39,7 @@ Currently, two official plugins are available:
         <button onClick={scrollToTop} className='btn-top'>
           <FaArrowUp className="icon" />
         </button>
-      </div>
+      </div> Ismail Jolasun
             
 
 
@@ -209,3 +209,9 @@ E-mail : christophegauthiersokpoly@gmail.com
 LinkedIn : [votre profil LinkedIn si vous en avez un]
 
 La lettre a été personnalisée avec le nom du directeur pour la rendre plus professionnelle et directe. Voulez-vous que je modifie d'autres aspects ?
+
+cOinternational
+hello@co-agency.co
+Saint Michel - Caboma, Cotonou, Bénin
+
+Votre entreprise se démarque par ses projets innovants, sa culture d'entreprise, ses valeurs.
